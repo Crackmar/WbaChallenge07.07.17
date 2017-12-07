@@ -92,7 +92,6 @@ function newElement() {
     });
 
   });
-<<<<<<< HEAD
 //   function sort(){
 //       var list = document.getElementById("myUL");
 // var shouldSwitch;
@@ -118,8 +117,6 @@ function newElement() {
 //       }
 //   }
 //   }
-=======
->>>>>>> 745d82a9a8aa17a69a2438c7baaac2dc1443cc7a
 
 
 //Code Snippet von https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_sort_list

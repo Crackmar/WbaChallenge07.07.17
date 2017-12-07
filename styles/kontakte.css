@@ -145,3 +145,11 @@ body {
       
       border: 2px solid;
   }      
+
+#Kontaktbutton {
+	width: 75%;
+}
+
+#Adressbuch {
+	font-size: 2.5rem;
+}
