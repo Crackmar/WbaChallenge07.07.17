@@ -30,17 +30,19 @@ list.addEventListener('click', function(ev) {
 
 // Create a new list item when clicking on the "Add" button
 function newElement() {
-  var ul = document.getElementById("myUL");
-  var li = document.createElement("li");
+  
   var inputValue = document.getElementById("myInput").value;
   var inputValue2 = document.getElementById("myInput2").value;
   var inputValue3 = document.getElementById("myInput3").value;
   var inputValue4 = document.getElementById("myInput4").value;
-  var t = document.createTextNode(inputValue);
-  var t2 = document.createTextNode(inputValue2);
-  var t3 = document.createTextNode(inputValue3);
-  var t4 = document.createTextNode(inputValue4);
-  li.innerHTML= "<label id=listenLabel>Name:</label> " + inputValue + "<br> <label id=listenLabel>Mobil:</label> " + inputValue2 + "<br> <label id=listenLabel>Telefon:</label> " + inputValue3 + "<br> <label id=listenLabel>Email:</label> " + inputValue4+ "<hr>";
+ if(inputValue!=""){                                                // mindesten der Name muss eingegeben werden damit ein Kontakt erstellt wird
+    var ul = document.getElementById("myUL");
+    var li = document.createElement("li");
+    li.innerHTML= "<label id=listenLabel>Name:</label> " + inputValue + "<br> <label id=listenLabel>Mobil:</label> " + inputValue2 + "<br> <label id=listenLabel>Telefon:</label> " + inputValue3 + "<br> <label id=listenLabel>Email:</label> " + inputValue4+ "<hr>";
+}
+ 
+ 
+  
     li.className="name-" + inputValue;
   ul.appendChild(li);
   document.getElementById("myInput").value = "";
@@ -66,8 +68,8 @@ function newElement() {
       var liArray = document.querySelectorAll("#myUL li");
       for (var index = 0; index < liArray.length; index++) {
         var valueArray = liArray[index].className.split("-"); //array aus 2 elementen
-        var value = valueArray[1];
-
+        var value = valueArray[1]; 
+        
         if (value == find) {
               liArray[index].style.display= "list-item";
           }
@@ -75,23 +77,24 @@ function newElement() {
             liArray[index].style.display= "none";
           }
           if(find == ""){
-            liArray[index].style.display= "list-item";
+            liArray[index].style.display= "list-item"; 
           }
-
+          
       }
-
+        
      }
-
+  
   document.addEventListener("DOMContentLoaded",function(){
 
     document.getElementById("searchTextBOX").addEventListener("keyup",function(e){
 
-
+        
         search( document.getElementById("searchTextBOX").value);
 
     });
 
   });
+
 //   function sort(){
 //       var list = document.getElementById("myUL");
 // var shouldSwitch;
@@ -117,6 +120,8 @@ function newElement() {
 //       }
 //   }
 //   }
+
+
 
 
 //Code Snippet von https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_sort_list
@@ -157,3 +162,5 @@ function sortList() {
     }
   }
 }
+
+
