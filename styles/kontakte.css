@@ -125,7 +125,12 @@ body {
     max-height: 730px;
     
             }
-
+.inputLabel2{       /*Zeitmangel unschöne Lösung aber effektiv*/
+    
+    margin-left: 3px;
+    margin-right: auto;
+    font-weight: bold;
+}
 
   .inputLabel{
     
@@ -142,6 +147,6 @@ body {
     
   }   
   hr{
-      
+      color:grey;
       border: 2px solid;
   }      
