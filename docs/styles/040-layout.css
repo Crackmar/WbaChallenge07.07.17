@@ -31,7 +31,7 @@ Wer es noch schöner möchte, möge sich mal https://cssguidelin.es/ anschauen.
 .sc1 {
     margin: 0 auto;
     height: 500px;
-    background-color: #5b7cb2;
+    background-color: #3d3737;
     width max-width;
     margin-bottom: 0;
     position:relative;
@@ -41,7 +41,7 @@ Wer es noch schöner möchte, möge sich mal https://cssguidelin.es/ anschauen.
 .sc2 {
     margin: 0 auto;
     height: 500px;
-    background-color: #6d81a3;
+    background-color: #686464;
     width max-width;
     margin-bottom: 0;
     font-size: 1rem;
@@ -51,7 +51,7 @@ Wer es noch schöner möchte, möge sich mal https://cssguidelin.es/ anschauen.
 .sc3 {
     margin: 0 auto;
     height: 500px;
-    background-color: #5b7cb2;
+    background-color: #3d3737;
     width max-width;
     margin-bottom: 0;
 
@@ -60,7 +60,7 @@ Wer es noch schöner möchte, möge sich mal https://cssguidelin.es/ anschauen.
 .sc4 {
     margin: 0 auto;
     height: 500px;
-    background-color: #6d81a3;
+    background-color: #686464;
     width max-width;
     margin-bottom: 0;
     
@@ -177,4 +177,13 @@ li h4:hover {
     margin-right: 390px;
     margin-top: 110px
 
+}
+
+.Logo{
+    width: 90px;
+    height: auto;
+
+    
+
+    
 }
