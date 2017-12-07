@@ -83,6 +83,15 @@ Wer es noch schöner möchte, möge sich mal https://cssguidelin.es/ anschauen.
 
 }
 
+.sc5 {
+    margin: 0 auto;
+    height: 500px;
+    background-color: #3d3737;
+    width max-width;
+    margin-bottom: 0;
+
+}   
+
 
 
 .sh1{
@@ -117,15 +126,27 @@ Wer es noch schöner möchte, möge sich mal https://cssguidelin.es/ anschauen.
         
 }
 
+.sh5{
+    float: left;
+    margin-left: 150px;
+    margin-right: 450px;
+    padding-top: 50px;
+}
+
 .sh0{
     z-index: 20;
-    
+    margin-left: 100px;
 }
 
 
 .title{
     font-family: 'Quicksand', sans-serif;
     z-index: 3;
+    
+}
+
+.subtitle1{
+    color: black;
 }
 
 .navbar{
@@ -210,7 +231,7 @@ li h4:hover {
 
 .img0{
 
-    opacity: 0.8;
+    opacity: 0.6;
     height: auto;
     width: 100%;
     position:absolute;
