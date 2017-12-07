@@ -17,18 +17,66 @@ Wer es noch schöner möchte, möge sich mal https://cssguidelin.es/ anschauen.
 
 /* Section
 -------------------------------------------------------------------------*/
-.sc {
+.sc1 {
     margin: 0 auto;
-    height: 300px;
-    background-color: #7f849b;
+    height: 500px;
+    background-color: #5b7cb2;
     width max-width;
+    margin-bottom: 0;
+
 }
+
+.sc2 {
+    margin: 0 auto;
+    height: 500px;
+    background-color: #6d81a3;
+    width max-width;
+    margin-bottom: 0;
+    font-size: 1rem;
+
+}
+
+.sc3 {
+    margin: 0 auto;
+    height: 500px;
+    background-color: #5b7cb2;
+    width max-width;
+    margin-bottom: 0;
+
+}
+
+.sc4 {
+    margin: 0 auto;
+    height: 500px;
+    background-color: #6d81a3;
+    width max-width;
+    margin-bottom: 0;
+    
+
+}
+
+
+
+.sh{
+    float: left;
+    margin-left: 150px;
+    margin-right: 450px;
+    padding-top: 50px;
+        
+}
+
+.title{
+    font-family: 'Quicksand', sans-serif;
+}
+
+
 
 .main {
     position: relative;
+    
 }
 
 
 .section {
-    padding-bottom: var(--space-stack-xl);
+    padding-bottom: 0;
 }
