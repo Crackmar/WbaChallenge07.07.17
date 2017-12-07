@@ -100,7 +100,7 @@ body {
     border: none;
     width: 75%;
     padding: 10px;
-    float: left;
+    
     font-size: 16px;
   }
   
@@ -125,30 +125,28 @@ body {
     max-height: 730px;
     
             }
+.inputLabel2{       /*Zeitmangel unschöne Lösung aber effektiv*/
+    
+    margin-left: 3px;
+    margin-right: auto;
+    font-weight: bold;
+}
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
->>>>>>> 745d82a9a8aa17a69a2438c7baaac2dc1443cc7a
   .inputLabel{
     
-    
+    margin-left: auto;
+    margin-right: auto;
     font-weight: bold;
     
   }      
   .inputSuche{
     text-align: center;
-    margin-left: 30px;
+    margin-left: auto;
+    margin-right: auto;
     border-radius: 2%;
     
   }   
   hr{
-      
+      color:grey;
       border: 2px solid;
   }      
-<<<<<<< HEAD
-=======
-
->>>>>>> 745d82a9a8aa17a69a2438c7baaac2dc1443cc7a
