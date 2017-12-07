@@ -115,3 +115,8 @@ body {
   .addBtn:hover {
     background-color: #bbb;
   }
+  #myUL
+  {overflow-y: scroll;
+    max-height: 300px;
+    
+            }
