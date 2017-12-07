@@ -39,13 +39,9 @@ function newElement() {
   var t2 = document.createTextNode(inputValue2);
   var t3 = document.createTextNode(inputValue3);
   var t4 = document.createTextNode(inputValue4);
-  li.innerHTML= "<label id=listenLabel>Name:</label> " + inputValue + "<br> <label id=listenLabel>Mobil</label> " + inputValue2 + "<br> <label id=listenLabel>Telefon:</label> " + inputValue3 + "<br> <label id=listenLabel>Email:</label> " + inputValue4;
-  
+  li.innerHTML= "<label id=listenLabel>Name:</label> " + inputValue + "<br> <label id=listenLabel>Mobil:</label> " + inputValue2 + "<br> <label id=listenLabel>Telefon:</label> " + inputValue3 + "<br> <label id=listenLabel>Email:</label> " + inputValue4;
+    li.className="name-" + inputValue;
   ul.appendChild(li);
- // if (kontakt=== '') {
-  //// } else {
- //   document.getElementById("myUL").appendChild(li);
- //document.getElementById("myInput").value = "";
 
   var span = document.createElement("SPAN");
   var txt = document.createTextNode("\u00D7");
@@ -58,5 +54,36 @@ function newElement() {
       var div = this.parentElement;
       div.style.display = "none";
     }
-  }
-}
+  }}
+  function search(elementTofind){
+      var find =elementTofind;
+      var liArray = document.querySelectorAll("#myUL li");
+      for (var index = 0; index < liArray.length; index++) {
+        var valueArray = liArray[index].className.split("-"); //array aus 2 elementen
+        var value = valueArray[1]; 
+        
+        if (value == find) {
+              liArray[index].style.display= "list-item";
+          }
+          else{
+            liArray[index].style.display= "none";
+          }
+          if(find == ""){
+            liArray[index].style.display= "list-item"; 
+          }
+          
+      }
+        
+     }
+  
+  document.addEventListener("DOMContentLoaded",function(){
+
+    document.getElementById("searchTextBOX").addEventListener("keyup",function(e){
+
+        
+        search( document.getElementById("searchTextBOX").value);
+
+    });
+
+  });
+
