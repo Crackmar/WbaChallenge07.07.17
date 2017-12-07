@@ -100,7 +100,7 @@ body {
     border: none;
     width: 75%;
     padding: 10px;
-    float: left;
+    
     font-size: 16px;
   }
   
@@ -128,13 +128,15 @@ body {
 
   .inputLabel{
     
-    
+    margin-left: auto;
+    margin-right: auto;
     font-weight: bold;
     
   }      
   .inputSuche{
     text-align: center;
-    margin-left: 30px;
+    margin-left: auto;
+    margin-right: auto;
     border-radius: 2%;
     
   }   
