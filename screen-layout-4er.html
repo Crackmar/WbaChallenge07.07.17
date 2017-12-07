@@ -9,9 +9,10 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="styles/generated/screen.css">
-
+    <link rel="stylesheet" href="styles/generated/kalender.css">
     <!-- Font -->
     <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700" rel="stylesheet">
+    <script src="scripts/kalender.js"></script>
 </head>
 
 <body>
@@ -51,9 +52,6 @@
                 <div class="screen__content" draggable="true"  data-screen-content>
                     <!-- Put your Content here ###########################################-->
 
-                    <h4>Super Content Area 1</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris</p>
-                    <button class="btn">Start Tour</button>
 
                     <!-- End of content box 4 ############################################-->
                 </div>
@@ -66,16 +64,20 @@
                     <!-- Put your Content here ###########################################-->
 
                     <div class="card">
-                        <img class="card-img-top" src="https://static.pexels.com/photos/675764/pexels-photo-675764.jpeg" alt="Card image cap">
-                        <div class="card-body">
-                            <h4 class="card-title">Card title</h4>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                        </div>
-                    </div>
 
+                      <h4 class="text-align_center Kalender">Kalender</h4>
+                      <p id="monat" class="monat" >Lädt</p>
+                      <p class="text-align_center">Wählen sie einen Tag aus, um informationen zu erhalten </p>
+                    <center>
+                      <div id="Buttons" >
+
+                      </div>
+                    </center>
+                    <input type="text" id="js_kalender_day" >
+                    <input type="text" id="js_kalender_event" value="">
                     <!-- End of content box 4 ############################################-->
                 </div>
+              </div>
             </section>
 
             <!-- Section 3: unten links
@@ -125,7 +127,7 @@
 
     <!-- Verschiedene Layouts via Query String -->
     <script src="scripts/tesla-layout-switch.js"></script>
-    
+
     <!-- Verschiedene Layouts via Query String -->
     <script src="scripts/tesla-main-control.js"#></script>
 
