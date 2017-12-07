@@ -1,0 +1,43 @@
+.card-title{
+  text-align: center;
+}
+.text-align_center{
+  text-align: center;
+  margin: 30px;
+
+}
+.table_button{
+  text-align: center;
+  padding: 2em;
+}
+
+.btn_k{
+
+  display:inline-block;
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+  width: 65.7px;
+  height: 65.7px;
+
+}
+
+.monat{
+  text-align:center;
+  font-size:2rem;
+}
+
+.Kalender{
+  font-size: 2.5rem;
+}
+
+.btn_left{
+  margin-left: 10px;
+}
+
+.kurz2 , .mittel , .lang {
+  display:none;
+}
+
+.btn_bright{
+  background-color: white;
+}
