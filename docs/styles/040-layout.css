@@ -20,11 +20,16 @@ Wer es noch schöner möchte, möge sich mal https://cssguidelin.es/ anschauen.
     background-color: #333;
     margin: auto 0;
     height: 60px;
-    width max-width;
+    /*width max-width;*/
     margin-bottom: auto 0;
     position:relative;
     padding: 0;
+    z-index: 10;
     
+    
+}
+.body{
+    background-color: #4f4949;
 }
 
 
@@ -101,12 +106,16 @@ section:hover{
 
 .sc5 {
     margin: 0 auto;
-    height: 500px;
+    height: 300px;
     background-color: #3d3737;
     width max-width;
     margin-bottom: 0;
 
 }   
+
+.sc6{
+    z-index: 20;
+}
 
 
 
@@ -135,7 +144,7 @@ section:hover{
 }
 
 .sh4{
-    float: left;
+    float: right;
     margin-left: 500px;
     margin-right: 100px;
     padding-top: 50px;
@@ -143,8 +152,8 @@ section:hover{
 }
 
 .sh5{
-    float: left;
-    margin-left: 150px;
+    float: center;
+    margin-left: 450px;
     margin-right: 450px;
     padding-top: 50px;
 }
@@ -152,6 +161,11 @@ section:hover{
 .sh0{
     z-index: 20;
     margin-left: 100px;
+}
+
+.sh6{
+    float: : left;
+    z-index: 10;
 }
 
 
@@ -268,7 +282,7 @@ li h4:hover {
 
 .img0{
 
-    opacity: 0.8;
+    opacity: 1;
     height: auto;
     width: 100%;
     position:absolute;
@@ -283,7 +297,34 @@ li h4:hover {
    
     
 }
+.image2{
+    float: left;
+    margin-right: 390px;
+    margin-top: 0;
+    
+    
+}
+
+.img2{
+    height: 100%;
+    width:auto;
+    position: absolute;
+    border-radius: 25px
+    
+}
 
 .footer{
-    background-color: #4f4949
+    background-color: #4f4949;
+    margin-bottom: -20px;
+    padding-bottom: 0;
+
+        
+}
+
+.clearfix:after {
+    content: ".";
+    clear: both;
+    display: block;
+    visibility: hidden;
+    height: 0px;
 }
