@@ -125,12 +125,7 @@ body {
     max-height: 730px;
     
             }
-.inputLabel2{       /*Zeitmangel unschöne Lösung aber effektiv*/
-    
-    margin-left: 3px;
-    margin-right: auto;
-    font-weight: bold;
-}
+
 
   .inputLabel{
     
@@ -147,6 +142,21 @@ body {
     
   }   
   hr{
-      color:grey;
+      
       border: 2px solid;
-  }      
+  } 
+  .screen__content img.imgTesla{
+     
+      float: left;
+      width: 75px;
+  }     
+       
+
+#Kontaktbutton {
+	width: 75%;
+<<<<<<< HEAD
+}
+=======
+}
+
+>>>>>>> e6489ef50107c7f3170211a0ee05db49e7688482
