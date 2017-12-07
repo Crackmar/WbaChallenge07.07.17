@@ -5,12 +5,11 @@ Enthält alle übergreifenden typographischen Regeln.
 Wer es noch schöner möchte, möge sich mal https://cssguidelin.es/ anschauen.
 ----------------------------------------------------------------------------*/
 
-@import url(https://fonts.google.com/specimen/Quicksand?selection.family=Quicksand);
+@import url(http://fonts.googleapis.com/css?family=Quicksand);
 
-   
-.sc{
-    font-family: 'Quicksand', sans-serif;
-}
+h1, h2, h3, h4{font-family: 'Quicksand', sans-serif;}
+
+
 
 
 /* Headlines
