@@ -9,7 +9,7 @@ Wer es noch schöner möchte, möge sich mal https://cssguidelin.es/ anschauen.
 /* Content
 -----------------------------------------------------------------------------*/
 
-.content {
+.section content {
     max-width: var(--content-width);
     margin: 0 auto;
 }
@@ -92,8 +92,21 @@ Wer es noch schöner möchte, möge sich mal https://cssguidelin.es/ anschauen.
 
 .title{
     font-family: 'Quicksand', sans-serif;
+    position: relative;
 }
 
+.navbar{
+    color: black;
+    position: relative;
+    float:left;
+    width max-width; 
+    
+
+}
+
+.body {
+    position: absolute;
+}
 
 
 .main {
@@ -104,4 +117,31 @@ Wer es noch schöner möchte, möge sich mal https://cssguidelin.es/ anschauen.
 
 .section {
     padding-bottom: 0;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width max-width;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li h4 {
+    display: block;
+    color: white;
+    text-align: justify;
+    padding: 5px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li h4:hover {
+    background-color: #111;
 }
