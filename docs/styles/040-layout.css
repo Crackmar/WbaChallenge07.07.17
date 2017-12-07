@@ -57,13 +57,38 @@ Wer es noch schöner möchte, möge sich mal https://cssguidelin.es/ anschauen.
 
 
 
-.sh{
+.sh1{
     float: left;
     margin-left: 150px;
     margin-right: 450px;
     padding-top: 50px;
         
 }
+
+.sh2{
+    float: left;
+    margin-left: 150px;
+    margin-right: 450px;
+    padding-top: 50px;
+        
+}
+
+.sh3{
+    float: left;
+    margin-left: 150px;
+    margin-right: 450px;
+    padding-top: 50px;
+        
+}
+
+.sh4{
+    float: left;
+    margin-left: 150px;
+    margin-right: 450px;
+    padding-top: 50px;
+        
+}
+
 
 .title{
     font-family: 'Quicksand', sans-serif;
