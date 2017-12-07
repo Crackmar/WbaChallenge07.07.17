@@ -9,10 +9,15 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="styles/generated/screen.css">
+
+    <link rel="stylesheet" href="styles/generated/kalender.css">
+
     <link rel="stylesheet" href="styles/kontakte.css">
+
 
     <!-- Font -->
     <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700" rel="stylesheet">
+    <script src="scripts/kalender.js"></script>
 </head>
 
 <body>
@@ -52,12 +57,17 @@
                 <div class="screen__content" draggable="true"  data-screen-content>
                     <!-- Put your Content here ###########################################-->
 
+<<<<<<< HEAD
                     <h1>Adressbuch</h1>
+=======
+
+                    <h1>Kontakte</h1>
+>>>>>>> fb3de212c56edaf5558ae613ab20c5b128b6f6fc
                     <div id="such-panel" class="panel">
                         <h4>Kontakt Suchen</h4>
-                        
+
                             <div id="results">
-                              
+
                           </div>
                             <div>
                                 <label>
@@ -77,12 +87,13 @@
                         <input type="text" id="myInput4" placeholder="Email...">
                         <button onclick="newElement()" class="btn">Kontakt hinzufügen</button>
                       </div>
-                      
+
                       <ul id="myUL">
-                        
+
                       </ul>
                       <script src="scripts/kontaktejs.js"></script>
-                    
+
+
 
                     <!-- End of content box 4 ############################################-->
                 </div>
@@ -95,16 +106,20 @@
                     <!-- Put your Content here ###########################################-->
 
                     <div class="card">
-                        <img class="card-img-top" src="https://static.pexels.com/photos/675764/pexels-photo-675764.jpeg" alt="Card image cap">
-                        <div class="card-body">
-                            <h4 class="card-title">Card title</h4>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                        </div>
-                    </div>
 
+                      <h4 class="text-align_center Kalender">Kalender</h4>
+                      <p id="monat" class="monat" >Lädt</p>
+                      <p class="text-align_center">Wählen sie einen Tag aus, um informationen zu erhalten </p>
+                    <center>
+                      <div id="Buttons" >
+
+                      </div>
+                    </center>
+                    <input type="text" id="js_kalender_day" >
+                    <input type="text" id="js_kalender_event" value="">
                     <!-- End of content box 4 ############################################-->
                 </div>
+              </div>
             </section>
 
             <!-- Section 3: unten links
@@ -154,7 +169,7 @@
 
     <!-- Verschiedene Layouts via Query String -->
     <script src="scripts/tesla-layout-switch.js"></script>
-    
+
     <!-- Verschiedene Layouts via Query String -->
     <script src="scripts/tesla-main-control.js"></script>
     <!-- JS -- >
