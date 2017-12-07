@@ -3,7 +3,7 @@
 }
 .text-align_center{
   text-align: center;
-  margin: 30px;
+
 
 }
 .table_button{
@@ -39,5 +39,24 @@
 }
 
 .btn_bright{
-  background-color: white;
+  background-color: black!important;
+}
+
+.NoDisplay{
+  display:none;
+}
+.eingabe_k{
+  text-align:center;
+  margin-left: 60px;
+  margin-bottom:20px;
+}
+.btns{
+  width: 600px;
+  margin-bottom: 10px;
+}
+.btn_c{
+  margin-left: 170px;
+}
+.btn_s{
+  margin-left:30px;
 }
