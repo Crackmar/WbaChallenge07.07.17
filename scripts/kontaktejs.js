@@ -95,6 +95,34 @@ function newElement() {
 
   });
 
+//   function sort(){
+//       var list = document.getElementById("myUL");
+// var shouldSwitch;
+//       arbeite = true;
+//       while (arbeite){
+//           arbeite = false;
+//           var b = list.getElementsByTagName("LI")
+//           for (var index = 0; index < b.length-1; index++) {
+//             shouldSwitch = false;
+//             var listArray =b[index].className.split("-");
+//             var list =listArray[1];
+//             var listArray2 =b[index+1].className.split("-");
+//             var list2 =listArray[1];
+//              if(list.toLowerCase() > list2.toLowerCase()){
+//                 shouldSwitch = true;
+//                 break;
+//                 if(shouldSwitch){
+//                 b[i].parentNode.insertBefore(b[i + 1], b[i]);
+//                 arbeite = true;
+//              }
+
+//           }
+//       }
+//   }
+//   }
+
+
+
 
 //Code Snippet von https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_sort_list
 
