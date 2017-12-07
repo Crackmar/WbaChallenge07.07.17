@@ -125,12 +125,16 @@ body {
     max-height: 730px;
     
             }
+<<<<<<< HEAD
 .inputLabel2{       /*Zeitmangel unschöne Lösung aber effektiv*/
     
     margin-left: 2.5pt;
     margin-right: auto;
     font-weight: bold;
 }
+=======
+
+>>>>>>> a4aa12b93101b94668f84560a8e1cba52cb15b71
 
   .inputLabel{
     
@@ -147,7 +151,7 @@ body {
     
   }   
   hr{
-      color:grey;
+      
       border: 2px solid;
   } 
   .screen__content img.imgTesla{
@@ -159,7 +163,11 @@ body {
 
 #Kontaktbutton {
 	width: 75%;
+<<<<<<< HEAD
 }
+=======
+}
+<<<<<<< HEAD
 #kalenderBack{
     margin-block-end: 300px;
     margin-bottom: 300px;
@@ -167,3 +175,7 @@ body {
     height: 300px;
     padding-block-end: 300px;
 }
+=======
+
+>>>>>>> e6489ef50107c7f3170211a0ee05db49e7688482
+>>>>>>> a4aa12b93101b94668f84560a8e1cba52cb15b71
