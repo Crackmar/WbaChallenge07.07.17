@@ -29,6 +29,7 @@ list.addEventListener('click', function(ev) {
 
 // Create a new list item when clicking on the "Add" button
 function newElement() {
+    var ul = document.getElementById("myUL");
   var li = document.createElement("li");
   var inputValue = document.getElementById("myInput").value;
   var inputValue2 = document.getElementById("myInput2").value;
@@ -38,14 +39,13 @@ function newElement() {
   var t2 = document.createTextNode(inputValue2);
   var t3 = document.createTextNode(inputValue3);
   var t4 = document.createTextNode(inputValue4);
-  var kontakt = {t,t2,t3,t4};
-  li.appendChild(kontakte);
-  if (kontakte=== '') {
-    alert("You must write something!");
-  } else {
-    document.getElementById("myUL").appendChild(li);
-  }
-  document.getElementById("myInput").value = "";
+  li.innerHTML= "<label id=listenLabel>Name:</label> " + inputValue + "<br> <label id=listenLabel>Mobil</label> " + inputValue2 + "<br> <label id=listenLabel>Telefon:</label> " + inputValue3 + "<br> <label id=listenLabel>Email:</label> " + inputValue4;
+  
+  ul.appendChild(li);
+ // if (kontakt=== '') {
+  //// } else {
+ //   document.getElementById("myUL").appendChild(li);
+ //document.getElementById("myInput").value = "";
 
   var span = document.createElement("SPAN");
   var txt = document.createTextNode("\u00D7");
