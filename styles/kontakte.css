@@ -127,8 +127,11 @@ body {
             }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 745d82a9a8aa17a69a2438c7baaac2dc1443cc7a
   .inputLabel{
     
     
@@ -136,7 +139,8 @@ body {
     
   }      
   .inputSuche{
-    
+    text-align: center;
+    margin-left: 30px;
     border-radius: 2%;
     
   }   
@@ -144,3 +148,7 @@ body {
       
       border: 2px solid;
   }      
+<<<<<<< HEAD
+=======
+
+>>>>>>> 745d82a9a8aa17a69a2438c7baaac2dc1443cc7a

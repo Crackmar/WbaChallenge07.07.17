@@ -145,9 +145,29 @@ Wer es noch schöner möchte, möge sich mal https://cssguidelin.es/ anschauen.
     
 }
 
+.title1{
+    margin-left: 150px;
+    font-size: 3rem;
+    margin-bottom: 5px;
+    float:none;
+    margin-top: 50px;
+        
+}
+
+.headsub{
+    margin-left: 150px;
+    font-size: 1.5rem;
+    border: none;
+    padding-top: 5px;
+    margin-top: 10px
+}
+
 .subtitle1{
     color: black;
+    
 }
+
+
 
 .navbar{
     color: black;
@@ -241,7 +261,7 @@ li h4:hover {
 }
 
 .image0{
-    margin-top: -36px;
+    margin-top: -50px;
     float: left;
     
     
