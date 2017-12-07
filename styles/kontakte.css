@@ -85,6 +85,7 @@ body {
     padding: 30px 40px;
     color: white;
     text-align: center;
+    border-radius: 2%;
   }
   
   /* Clear floats after the header */
@@ -124,4 +125,20 @@ body {
     max-height: 730px;
     
             }
+
+  .inputLabel{
+    
+    
+    font-weight: bold;
+    
+  }      
+  .inputSuche{
+    
+    border-radius: 2%;
+    
+  }   
+  hr{
+      
+      border: 2px solid;
+  }      
 

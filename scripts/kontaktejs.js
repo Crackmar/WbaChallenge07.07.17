@@ -1,5 +1,6 @@
+//Basis ist von W3Schools https://www.w3schools.com/howto/howto_js_todolist.asp
 // Create a "close" button and append it to each list item
-var myNodelist = document.getElementsByTagName("LI");
+var myNodelist = document.getElementsByTagName("myUL LI");
 var i;
 for (i = 0; i < myNodelist.length; i++) {
   var span = document.createElement("SPAN");
@@ -39,7 +40,7 @@ function newElement() {
   var t2 = document.createTextNode(inputValue2);
   var t3 = document.createTextNode(inputValue3);
   var t4 = document.createTextNode(inputValue4);
-  li.innerHTML= "<label id=listenLabel>Name:</label> " + inputValue + "<br> <label id=listenLabel>Mobil:</label> " + inputValue2 + "<br> <label id=listenLabel>Telefon:</label> " + inputValue3 + "<br> <label id=listenLabel>Email:</label> " + inputValue4;
+  li.innerHTML= "<label id=listenLabel>Name:</label> " + inputValue + "<br> <label id=listenLabel>Mobil:</label> " + inputValue2 + "<br> <label id=listenLabel>Telefon:</label> " + inputValue3 + "<br> <label id=listenLabel>Email:</label> " + inputValue4+ "<hr>";
     li.className="name-" + inputValue;
   ul.appendChild(li);
   document.getElementById("myInput").value = "";
@@ -91,32 +92,9 @@ function newElement() {
     });
 
   });
-//   function sort(){
-//       var list = document.getElementById("myUL");
-// var shouldSwitch;
-//       arbeite = true;
-//       while (arbeite){
-//           arbeite = false;
-//           var b = list.getElementsByTagName("LI")
-//           for (var index = 0; index < b.length-1; index++) {
-//             shouldSwitch = false;
-//             var listArray =b[index].className.split("-");
-//             var list =listArray[1];
-//             var listArray2 =b[index+1].className.split("-");
-//             var list2 =listArray[1];
-//              if(list.toLowerCase() > list2.toLowerCase()){
-//                 shouldSwitch = true;
-//                 break;
-//                 if(shouldSwitch){
-//                 b[i].parentNode.insertBefore(b[i + 1], b[i]);
-//                 arbeite = true;
-//              }
-              
-//           }
-//       }
-//   }
-//   }
 
+
+//Code Snippet von https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_sort_list
 
 function sortList() {
   var list, i, switching, b, shouldSwitch;
@@ -136,7 +114,7 @@ function sortList() {
       switch place with the current item:*/
       var listArray1 =b[i].className.split("-");
         var list1 =listArray1[1];
-      var listArray2 =b[i+1].className.split("-");
+      var listArray2 =b[i+1].className.split("-");    //angepasst für Kontakte
       var list2 =listArray2[1];
       if (list1.toLowerCase() > list2.toLowerCase()) {
         /*if next item is alphabetically
