@@ -16,7 +16,18 @@ Wer es noch schöner möchte, möge sich mal https://cssguidelin.es/ anschauen.
 
 
 /* Section
------------------------------------------------------------------------------*/
+-------------------------------------------------------------------------*/
+.sc {
+    margin: 0 auto;
+    height: 300px;
+    background-color: #7f849b;
+    width max-width;
+}
+
+.main {
+    position: relative;
+}
+
 
 .section {
     padding-bottom: var(--space-stack-xl);
