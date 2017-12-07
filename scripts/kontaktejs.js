@@ -29,7 +29,7 @@ list.addEventListener('click', function(ev) {
 
 // Create a new list item when clicking on the "Add" button
 function newElement() {
-    var ul = document.getElementById("myUL");
+  var ul = document.getElementById("myUL");
   var li = document.createElement("li");
   var inputValue = document.getElementById("myInput").value;
   var inputValue2 = document.getElementById("myInput2").value;
@@ -65,8 +65,8 @@ function newElement() {
       var liArray = document.querySelectorAll("#myUL li");
       for (var index = 0; index < liArray.length; index++) {
         var valueArray = liArray[index].className.split("-"); //array aus 2 elementen
-        var value = valueArray[1]; 
-        
+        var value = valueArray[1];
+
         if (value == find) {
               liArray[index].style.display= "list-item";
           }
@@ -74,18 +74,18 @@ function newElement() {
             liArray[index].style.display= "none";
           }
           if(find == ""){
-            liArray[index].style.display= "list-item"; 
+            liArray[index].style.display= "list-item";
           }
-          
+
       }
-        
+
      }
-  
+
   document.addEventListener("DOMContentLoaded",function(){
 
     document.getElementById("searchTextBOX").addEventListener("keyup",function(e){
 
-        
+
         search( document.getElementById("searchTextBOX").value);
 
     });
@@ -111,7 +111,7 @@ function newElement() {
 //                 b[i].parentNode.insertBefore(b[i + 1], b[i]);
 //                 arbeite = true;
 //              }
-              
+
 //           }
 //       }
 //   }
@@ -154,5 +154,3 @@ function sortList() {
     }
   }
 }
-
-

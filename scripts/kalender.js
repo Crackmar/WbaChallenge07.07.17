@@ -52,3 +52,17 @@ function MonthButtons(){
     container.appendChild(button);
   }
 }
+var event;
+function Kalender_Speichern(){
+  var ul = document.getElementById("yourUL");
+  var li = document.createElement("li");
+  var day_value = document.getElementById("js_kalender_day").value;
+  var event_value = document.getElementById("js_kalender_event").value;
+
+  li.innerHTML=day_value+" "+event_value;
+  ul.appendChild(li);
+}
+
+function Kalender_Clear(){
+  document.getElementById(js_kalender_event)="";
+}
