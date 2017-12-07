@@ -126,7 +126,6 @@ body {
     
             }
 
-<<<<<<< HEAD
   .inputLabel{
     
     
@@ -134,7 +133,8 @@ body {
     
   }      
   .inputSuche{
-    
+    text-align: center;
+    margin-left: 30px;
     border-radius: 2%;
     
   }   
@@ -142,9 +142,4 @@ body {
       
       border: 2px solid;
   }      
-=======
-.Kontaktlabel {
-	margin: 150x;
-}
->>>>>>> a34e6a14e106aa024b799b965b4d44fd692dc454
 
