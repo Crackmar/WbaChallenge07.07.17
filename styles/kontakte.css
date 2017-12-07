@@ -19,7 +19,7 @@ body {
   }
   
   /* Style the list items */
-  ul li {
+  #myUL li {            /*Button fix*/
     cursor: pointer;
     position: relative;
     padding: 12px 8px 12px 40px;
@@ -36,24 +36,24 @@ body {
   }
   
   /* Set all odd list items to a different color (zebra-stripes) */
-  ul li:nth-child(odd) {
+  #myUL li:nth-child(odd) {
     background: #f9f9f9;
   }
   
   /* Darker background-color on hover */
-  ul li:hover {
+  #myUL li:hover {
     background: #ddd;
   }
   
   /* When clicked on, add a background color and strike out text */
-  ul li.checked {
+  #myUL li.checked {
     background: #888;
     color: #fff;
     text-decoration: line-through;
   }
   
   /* Add a "checked" mark when clicked on */
-  ul li.checked::before {
+  #myUL li.checked::before {
     content: '';
     position: absolute;
     border-color: #fff;
@@ -125,7 +125,16 @@ body {
     max-height: 730px;
     
             }
+<<<<<<< HEAD
+.inputLabel2{       /*Zeitmangel unschöne Lösung aber effektiv*/
+    
+    margin-left: 2.5pt;
+    margin-right: auto;
+    font-weight: bold;
+}
+=======
 
+>>>>>>> a4aa12b93101b94668f84560a8e1cba52cb15b71
 
   .inputLabel{
     
@@ -154,9 +163,20 @@ body {
 
 #Kontaktbutton {
 	width: 75%;
+}
 <<<<<<< HEAD
+#kalenderBack{
+    margin-block-end: 300px;
+    margin-bottom: 300px;
+    padding-bottom: 300px;
+    height: 300px;
+    padding-block-end: 300px;
 }
 =======
-}
 
+<<<<<<< HEAD
+
+=======
 >>>>>>> e6489ef50107c7f3170211a0ee05db49e7688482
+>>>>>>> a4aa12b93101b94668f84560a8e1cba52cb15b71
+>>>>>>> 44f1005e5221de5c135966cce1bc642796ef00f9
