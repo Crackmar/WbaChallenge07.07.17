@@ -47,18 +47,25 @@ Wer es noch schöner möchte, möge sich mal https://cssguidelin.es/ anschauen.
     margin: 0 auto;
     height: 500px;
     background-color: #3d3737;
-    width max-width;
+/*    width max-width;*/
     margin-bottom: 0;
     position:relative;
     z-index: 5;
+}
 
+section {
+    transition-property: height;
+    transition-duration: 0.5s;
+    transition-timing-function: linear;
 }
 
 section:hover{
     height: 550px;
+/*
     transition-property: height;
     transition-duration: 1s;
     transition-timing-function: linear;
+*/
 }
 
 
@@ -156,14 +163,14 @@ section:hover{
 
 .title1{
     margin-left: 100px;
-    font-size: 4rem;
+    font-size: 2rem;
     margin-bottom: 5px;
     float:none;
     margin-top: 50px;
         
 }
 
-.headsub{
+/*.headsub{
     margin-left: 150px;
     font-size: 1.5rem;
     border: none;
@@ -174,7 +181,7 @@ section:hover{
 .subtitle1{
     color: black;
     
-}
+}*/
 
 
 
