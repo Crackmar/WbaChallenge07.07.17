@@ -35,7 +35,7 @@ function MonthButtons(){
     button.innerHTML=i;
     button.setAttribute("day",i);
     button.addEventListener("click",function(e){
-
+    document.getElementById("js_kalender_day").value=e.target.getAttribute("day");
 
     if (!e.target.classList.contains("btn_bright")) {
 
