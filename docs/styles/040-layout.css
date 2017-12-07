@@ -81,7 +81,7 @@ section:hover{
     width max-width;
     margin-bottom: 0;
     font-size: 1rem;
-    
+    position:relative;
 
 }
 
@@ -91,6 +91,7 @@ section:hover{
     background-color: #3d3737;
     width max-width;
     margin-bottom: 0;
+    position: relative;
 
 }
 
@@ -100,6 +101,7 @@ section:hover{
     background-color: #4f4949;
     width max-width;
     margin-bottom: 0;
+    position: relative;
     
 
 }
@@ -110,6 +112,7 @@ section:hover{
     background-color: #3d3737;
     width max-width;
     margin-bottom: 0;
+    position: relative;
 
 }   
 
@@ -129,15 +132,16 @@ section:hover{
 
 .sh2{
     float: right;
-    margin-left: 500px;
-    margin-right: 100px;
+    margin-left: 600px;
+    margin-right: 50px;
     padding-top: 50px;
+    font-size: 30px
         
 }
 
 .sh3{
     float: left;
-    margin-left: 150px;
+    margin-left: 100px;
     margin-right: 450px;
     padding-top: 50px;
         
@@ -306,6 +310,38 @@ li h4:hover {
 }
 
 .img2{
+    height: 100%;
+    width:550px;
+    position: absolute;
+    border-radius: 25px
+    
+}
+
+.image3{
+    float: right;
+    margin-right: 360px;
+    margin-top: 0;
+    
+    
+}
+
+.img3{
+    height: 100%;
+    width:auto;
+    position: absolute;
+    border-radius: 25px
+    
+}
+
+.image4{
+    float: left;
+    margin-right: 380px;
+    margin-top: 0;
+    
+    
+}
+
+.img4{
     height: 100%;
     width:auto;
     position: absolute;
