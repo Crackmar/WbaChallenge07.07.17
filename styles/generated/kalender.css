@@ -39,5 +39,9 @@
 }
 
 .btn_bright{
-  background-color: white;
+  background-color: black!important;
+}
+
+.NoDisplay{
+  display:none;
 }
