@@ -64,5 +64,6 @@ function Kalender_Speichern(){
 }
 
 function Kalender_Clear(){
-  document.getElementById(js_kalender_event)="";
+  document.getElementById(js_kalender_event);
+  
 }
