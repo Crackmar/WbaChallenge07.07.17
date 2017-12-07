@@ -18,7 +18,7 @@ Wer es noch schöner möchte, möge sich mal https://cssguidelin.es/ anschauen.
 .site-header{
     background-color: #333;
     margin: 0 auto;
-    height: 300px;
+    height: 60px;
     width max-width;
     margin-bottom: 0;
     position:relative;
@@ -78,9 +78,9 @@ Wer es noch schöner möchte, möge sich mal https://cssguidelin.es/ anschauen.
 }
 
 .sh2{
-    float: left;
-    margin-left: 150px;
-    margin-right: 450px;
+    float: right;
+    margin-left: 500px;
+    margin-right: 100px;
     padding-top: 50px;
         
 }
@@ -95,8 +95,8 @@ Wer es noch schöner möchte, möge sich mal https://cssguidelin.es/ anschauen.
 
 .sh4{
     float: left;
-    margin-left: 150px;
-    margin-right: 450px;
+    margin-left: 500px;
+    margin-right: 100px;
     padding-top: 50px;
         
 }
@@ -142,6 +142,9 @@ ul {
 
 li {
     float: left;
+    margin: 10px;
+    padding:0;
+    
 }
 
 li h4 {
@@ -150,24 +153,28 @@ li h4 {
     text-align: justify;
     padding: 5px 16px;
     text-decoration: none;
+    margin-top: 1px;
+    margin-bottom: 1px;
 }
 
-/* Change the link color to #111 (black) on hover */
 li h4:hover {
     background-color: #111;
 }
 
+
+
 .img1{
     transform: rotate(90deg);
-    max-height: 100%;  
-    max-width: 100%; 
-    width: auto;
-    height: auto;
-    position: absolute;  
-    top: 0;  
-    bottom: 0;  
-    left: 0;  
-    right: 0;  
-    float: right;
+    height: 56%;
+    width:auto;
+    position: absolute;
     
+    
+}
+
+.image1{
+    float: right;
+    margin-right: 390px;
+    margin-top: 110px
+
 }
