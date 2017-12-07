@@ -149,4 +149,9 @@ body {
   hr{
       color:grey;
       border: 2px solid;
-  }      
+  } 
+  .screen__content img.imgTesla{
+     
+      float: left;
+      width: 75px;
+  }     
