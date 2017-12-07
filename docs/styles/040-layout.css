@@ -11,6 +11,7 @@ Wer es noch schöner möchte, möge sich mal https://cssguidelin.es/ anschauen.
 
 .section content {
     max-width: var(--content-width);
+    float: left;
     margin: 0 auto;
 }
 
@@ -92,7 +93,6 @@ Wer es noch schöner möchte, möge sich mal https://cssguidelin.es/ anschauen.
 
 .title{
     font-family: 'Quicksand', sans-serif;
-    position: relative;
 }
 
 .navbar{
