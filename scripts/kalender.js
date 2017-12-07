@@ -59,7 +59,7 @@ function Kalender_Speichern(){
   var day_value = document.getElementById("js_kalender_day").value;
   var event_value = document.getElementById("js_kalender_event").value;
 
-  li.innerHTML=day_value+" "+event_value;
+  li.innerHTML=day_value+". "+monat+": "+event_value;
   ul.appendChild(li);
 }
 
