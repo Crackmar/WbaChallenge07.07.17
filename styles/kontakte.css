@@ -1,3 +1,4 @@
+/*Basis ist von W3Schools https://www.w3schools.com/howto/howto_js_todolist.asp*/
 body {
     margin: 0;
     min-width: 250px;
@@ -6,12 +7,15 @@ body {
   /* Include the padding and border in an element's total width and height */
   * {
     box-sizing: border-box;
+    
   }
+
   
   /* Remove margins and padding from the list */
   ul {
     margin: 0;
     padding: 0;
+    
   }
   
   /* Style the list items */
@@ -115,6 +119,11 @@ body {
   .btn:hover {
     background-color: #bbb;
   }
+  #myUL
+  {overflow-y: scroll;
+    max-height: 730px;
+    
+            }
 
 .Kontaktlabel {
 	margin: 150x;
