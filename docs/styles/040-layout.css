@@ -9,26 +9,139 @@ Wer es noch schöner möchte, möge sich mal https://cssguidelin.es/ anschauen.
 /* Content
 -----------------------------------------------------------------------------*/
 
-.content {
+.section content {
     max-width: var(--content-width);
+    float: left;
     margin: 0 auto;
 }
 
 
 /* Section
 -------------------------------------------------------------------------*/
-.sc {
+.sc1 {
     margin: 0 auto;
-    height: 300px;
-    background-color: #7f849b;
+    height: 500px;
+    background-color: #5b7cb2;
     width max-width;
+    margin-bottom: 0;
+
 }
+
+.sc2 {
+    margin: 0 auto;
+    height: 500px;
+    background-color: #6d81a3;
+    width max-width;
+    margin-bottom: 0;
+    font-size: 1rem;
+
+}
+
+.sc3 {
+    margin: 0 auto;
+    height: 500px;
+    background-color: #5b7cb2;
+    width max-width;
+    margin-bottom: 0;
+
+}
+
+.sc4 {
+    margin: 0 auto;
+    height: 500px;
+    background-color: #6d81a3;
+    width max-width;
+    margin-bottom: 0;
+    
+
+}
+
+
+
+.sh1{
+    float: left;
+    margin-left: 150px;
+    margin-right: 450px;
+    padding-top: 50px;
+        
+}
+
+.sh2{
+    float: left;
+    margin-left: 150px;
+    margin-right: 450px;
+    padding-top: 50px;
+        
+}
+
+.sh3{
+    float: left;
+    margin-left: 150px;
+    margin-right: 450px;
+    padding-top: 50px;
+        
+}
+
+.sh4{
+    float: left;
+    margin-left: 150px;
+    margin-right: 450px;
+    padding-top: 50px;
+        
+}
+
+
+.title{
+    font-family: 'Quicksand', sans-serif;
+}
+
+.navbar{
+    color: black;
+    position: relative;
+    float:left;
+    width max-width; 
+    
+
+}
+
+.body {
+    position: absolute;
+}
+
 
 .main {
     position: relative;
+    
 }
 
 
 .section {
-    padding-bottom: var(--space-stack-xl);
+    padding-bottom: 0;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width max-width;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li h4 {
+    display: block;
+    color: white;
+    text-align: justify;
+    padding: 5px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li h4:hover {
+    background-color: #111;
 }
