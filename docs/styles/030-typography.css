@@ -5,15 +5,23 @@ Enthält alle übergreifenden typographischen Regeln.
 Wer es noch schöner möchte, möge sich mal https://cssguidelin.es/ anschauen.
 ----------------------------------------------------------------------------*/
 
-@import url(http://fonts.googleapis.com/css?family=Quicksand);
+/*@import url(http://fonts.googleapis.com/css?family=Quicksand);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);*/
 
-h1, h2, h3, h4{font-family: 'Quicksand', sans-serif;}
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300|Quicksand:300);
+
+
+
+h1, h2, h3, h4, h5{font-family: 'Quicksand', sans-serif;}
 
 h2,h3 {color:ghostwhite}
 
 h4{color:black}
 
 h1{color:black; z-index: 3}
+
+h5{color:black}
+
 
 
 
