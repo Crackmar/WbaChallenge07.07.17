@@ -31,9 +31,16 @@ list.addEventListener('click', function(ev) {
 function newElement() {
   var li = document.createElement("li");
   var inputValue = document.getElementById("myInput").value;
+  var inputValue2 = document.getElementById("myInput2").value;
+  var inputValue3 = document.getElementById("myInput3").value;
+  var inputValue4 = document.getElementById("myInput4").value;
   var t = document.createTextNode(inputValue);
-  li.appendChild(t);
-  if (inputValue === '') {
+  var t2 = document.createTextNode(inputValue2);
+  var t3 = document.createTextNode(inputValue3);
+  var t4 = document.createTextNode(inputValue4);
+  var kontakt = {t,t2,t3,t4};
+  li.appendChild(kontakte);
+  if (kontakte=== '') {
     alert("You must write something!");
   } else {
     document.getElementById("myUL").appendChild(li);
