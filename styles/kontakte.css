@@ -144,8 +144,19 @@ body {
   hr{
       
       border: 2px solid;
-  }      
+  } 
+  .screen__content img.imgTesla{
+     
+      float: left;
+      width: 75px;
+  }     
+       
 
 #Kontaktbutton {
 	width: 75%;
+<<<<<<< HEAD
 }
+=======
+}
+
+>>>>>>> e6489ef50107c7f3170211a0ee05db49e7688482
