@@ -9,6 +9,7 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="styles/generated/screen.css">
+    <link rel="stylesheet" href="styles/kontakte.css">
 
     <!-- Font -->
     <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700" rel="stylesheet">
@@ -51,7 +52,22 @@
                 <div class="screen__content" draggable="true"  data-screen-content>
                     <!-- Put your Content here ###########################################-->
 
-                    <h4>Super Content Area 1</h4>
+                    <h4>Tesla Office</h4>
+                    <div id="myDIV" class="header">
+                        <h2 style="margin:5px">My To Do List</h2>
+                        <input type="text" id="myInput" placeholder="Title...">
+                        <span onclick="newElement()" class="addBtn">Add</span>
+                      </div>
+                      
+                      <ul id="myUL">
+                        <li>Hit the gym</li>
+                        <li class="checked">Pay bills</li>
+                        <li>Meet George</li>
+                        <li>Buy eggs</li>
+                        <li>Read a book</li>
+                        <li>Organize office</li>
+                      </ul>
+                      <script src="scripts/kontaktejs.js"></script>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris</p>
                     <button class="btn">Start Tour</button>
 
@@ -127,6 +143,7 @@
     <script src="scripts/tesla-layout-switch.js"></script>
     
     <!-- Verschiedene Layouts via Query String -->
-    <script src="scripts/tesla-main-control.js"#></script>
-
+    <script src="scripts/tesla-main-control.js"></script>
+    <!-- JS -- >
+    <script src="scripts/kontaktejs.js"></script>
 </body>
